@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "ditto": {
+      "url": "https://mcp.ditto.audio"
+    }
+  }
+}

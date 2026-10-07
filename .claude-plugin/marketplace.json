@@ -1,0 +1,20 @@
+{
+  "name": "ditto-audio",
+  "owner": { "name": "ditto.audio", "email": "support@ditto.audio", "url": "https://ditto.audio" },
+  "metadata": {
+    "description": "Official ditto.audio plugins for Claude Code.",
+    "version": "1.2.0"
+  },
+  "plugins": [
+    {
+      "name": "ditto",
+      "source": "./plugins/ditto",
+      "description": "Text-to-speech in Claude Code: browse ditto.audio voices and synthesize speech. Sign in with your ditto.audio account on first use.",
+      "version": "1.2.0",
+      "homepage": "https://ditto.audio/docs/mcp",
+      "repository": "https://github.com/ditto-audio/ditto-mcp",
+      "category": "productivity",
+      "keywords": ["tts", "text-to-speech", "voice", "audio", "mcp"]
+    }
+  ]
+}

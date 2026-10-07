@@ -1,0 +1,11 @@
+{
+  "name": "ditto",
+  "displayName": "ditto.audio",
+  "description": "Text-to-speech in Cursor: browse ditto.audio voices and synthesize speech. Sign in with your ditto.audio account on first use.",
+  "version": "1.2.0",
+  "author": { "name": "ditto.audio", "url": "https://ditto.audio" },
+  "homepage": "https://ditto.audio/docs/mcp",
+  "repository": "https://github.com/ditto-audio/ditto-mcp",
+  "logo": "assets/logo.png",
+  "keywords": ["tts", "text-to-speech", "voice", "audio", "mcp"]
+}

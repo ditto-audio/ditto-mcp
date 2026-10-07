@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "audio.ditto/tts",
+  "title": "ditto.audio",
+  "description": "Text-to-speech: browse voices and synthesize natural speech from text with ditto.audio.",
+  "version": "1.2.0",
+  "websiteUrl": "https://ditto.audio/docs/mcp",
+  "repository": { "url": "https://github.com/ditto-audio/ditto-mcp", "source": "github" },
+  "icons": [
+    { "src": "https://mcp.ditto.audio/icon-64.png", "mimeType": "image/png", "sizes": ["64x64"] },
+    { "src": "https://mcp.ditto.audio/icon-256.png", "mimeType": "image/png", "sizes": ["256x256"] },
+    { "src": "https://mcp.ditto.audio/icon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.ditto.audio",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional: `Bearer ditto_sk_live_...` API key for headless use. Omit it to sign in with your ditto.audio account (OAuth).",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
