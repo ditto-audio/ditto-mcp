@@ -29,7 +29,7 @@ Headless (CI, servers): skip the sign-in and send an API key from
 
 | Tool | What it does |
 | --- | --- |
-| `list_voices` | Browse the voice catalogue plus your own custom voices |
+| `list_voices` | Browse the voice catalogue (voices you cloned or trained yourself are not served here yet) |
 | `list_languages` | Every language code and which engines speak it |
 | `text_to_speech` | Synthesize text and get a download URL (MP3 by default; FLAC/WAV and more on request) |
 | `create_speech_batch` | Queue up to 1000 texts at once |
